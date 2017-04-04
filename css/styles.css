@@ -1,0 +1,33 @@
+html {
+  font-family: Open Sans;
+}
+
+/*********
+
+Navigation
+
+*********/
+.nav-top {
+  background-color: #1c2c58;
+  height: 5px;
+}
+.nav-wrapper {
+  margin-top: -2px;
+}
+nav {
+  background-color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #1c2c58;
+}
+
+nav ul a {
+  color: #1c2c58;
+}
+
+.brand-logo {
+  width: 150px;
+}
