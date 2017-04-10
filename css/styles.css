@@ -207,57 +207,57 @@ Homepage intro section
 }
 
 
-/*********************
+/*****************
 
-Homepage visas section
+Blue__bkgr section
 
-*********************/
+*****************/
 
-.visas {
+.blue__bkgr {
     background-color: #1c2c58;
     color: #fff;
     z-index: 1;
 }
 
-.visas a {
+.blue__bkgr a {
     color: #fff;
     line-height: 1.8rem;
 }
 
-.visas a:hover {
+.blue__bkgr a:hover {
     color: #9E9E9E;
 }
 
-.visas .container {
+.blue__bkgr .container {
     padding-bottom: 100px;
 }
 
-.visas .container h2,
+.blue__bkgr .container h2,
 h4 {
     color: #fff;
 }
 
-.visas .container h2 {
+.blue__bkgr .container h2 {
     text-align: center;
     padding: 60px 0;
     border-bottom: 1px solid #fff;
 }
 
-.visas .container h4 {
+.blue__bkgr .container h4 {
     color: #fff;
     padding-top: 30px;
 }
 
-.visas .container a h4:hover {
+.blue__bkgr .container a h4:hover {
     color: #9E9E9E;
 }
 
 
-/*********************
+/***************************
 
 Homepage Green Cards section
 
-*********************/
+***************************/
 
 .green__cards {
     color: #1c2c58;
@@ -319,4 +319,16 @@ h4 {
 
 .green__cards__mobile h3 {
     padding: 0 0 20px;
+}
+
+.page-footer {
+    background-color: #fff;
+}
+
+.page-footer h4, p {
+    text-color: #1c2c58;
+}
+
+.page-footer .footer-copyright {
+    background-color: #1c2c58;
 }
