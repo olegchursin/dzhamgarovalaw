@@ -19,17 +19,22 @@ h3 {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3 {
     font-size: 1.3rem;
     line-height: 1.8rem;
 }
 
-h3 {
-    font-size: 1.2rem;
-    font-style: italic;
+h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 
@@ -115,16 +120,16 @@ nav ul a:hover {
 }
 
 
-/********************
+/*********************
 
 Homepage intro section
 
-********************/
+*********************/
 
 .intro {
     position: relative;
     height: 90%;
-    background: url("../img/dhzamgarovalaw-hero-photo-julian-santa-ana-.jpg") no-repeat center center;
+    background: url("../img/dhzamgarovalaw-hero-photo.jpg") no-repeat center center;
     background-size: cover;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
@@ -155,14 +160,51 @@ Homepage intro section
     margin: 60px 0 0 32px;
 }
 
+.testimonial__address {
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* remove padding-top from testimonial__address section on smaller screens */
+    .testimonial__address {
+        padding-top: 0;
+    }
+}
+
 .intro__testimonial {
     height: 180px;
-    background-color: #1c2c58;
+    background: url("../img/testimonial.svg") no-repeat center center;
 }
 
 .intro__address {
     height: 180px;
-    background-color: #fff;
+    background: url("../img/contact-intro.svg") no-repeat center center;
     opacity: .8;
-    border: 1px solid #1c2c58;
+}
+
+.intro__address__content {
+    margin-left: 30px;
+}
+
+/*********************
+
+Homepage visas section
+
+*********************/
+.visas {
+    background-color: #1c2c58;
+}
+.visas .container {
+    padding-bottom: 100px;
+}
+.visas .container h2, h4 {
+    color: #fff;
+}
+.visas .container h2 {
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 1px solid #fff;
+}
+.visas .container h4 {
+    padding-top: 30px;
 }
