@@ -51,9 +51,14 @@ Common elements
     color: #1c2c58;
 }
 
-.arrow-right {
+.icon__arrow-right, .icon__expand {
     width: 20px;
     margin-left: 20px;
+}
+
+.icon__expand {
+    float: right;
+    padding-top: 12px;
 }
 
 
@@ -70,17 +75,23 @@ Navigation
 
 .nav-wrapper {
     margin-top: -2px;
-
 }
 
 nav {
     background-color: #fff;
     font-weight: 300;
     text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
     color: #1c2c58;
+}
+
+nav a:hover {
+    color: #9E9E9E;
 }
 
 nav ul a {
@@ -130,13 +141,19 @@ Homepage intro section
 *********************/
 
 .intro {
-    position: relative;
     height: 90%;
     background: url("../img/dhzamgarovalaw-hero-photo.jpg") no-repeat center center;
     background-size: cover;
+    margin-top: 63px;
     z-index: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+@media only screen and (max-width: 600px) {
+    /* Adjust Intro section top margin to fit top nav */
+    .intro {
+        margin-top: 56px;
+    }
 }
 
 .scroll-down-icon {
@@ -189,40 +206,52 @@ Homepage intro section
     margin-left: 30px;
 }
 
+
 /*********************
 
 Homepage visas section
 
 *********************/
+
 .visas {
     background-color: #1c2c58;
     color: #fff;
+    z-index: 1;
 }
+
 .visas a {
     color: #fff;
     line-height: 1.8rem;
 }
+
 .visas a:hover {
     color: #9E9E9E;
 }
+
 .visas .container {
     padding-bottom: 100px;
 }
-.visas .container h2, h4 {
+
+.visas .container h2,
+h4 {
     color: #fff;
 }
+
 .visas .container h2 {
     text-align: center;
     padding: 60px 0;
     border-bottom: 1px solid #fff;
 }
+
 .visas .container h4 {
     color: #fff;
     padding-top: 30px;
 }
+
 .visas .container a h4:hover {
     color: #9E9E9E;
 }
+
 
 /*********************
 
@@ -233,24 +262,61 @@ Homepage Green Cards section
 .green__cards {
     color: #1c2c58;
 }
+
 .green__cards a {
     color: #1c2c58;
     line-height: 1.8rem;
 }
+
 .green__cards a:hover {
     color: #9E9E9E;
 }
+
 .green__cards .container {
     padding-bottom: 100px;
 }
-.green__cards .container h2, h4 {
+
+.green__cards .container h2,
+h4 {
     color: #1c2c58;
 }
+
 .green__cards .container h2 {
     text-align: center;
     padding: 60px 0;
     border-bottom: 1px solid #1c2c58;
 }
+
 .green__cards .container h4 {
     padding-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .green__cards__desktop {
+        /* remove full Green Cards list on smaller screens and sub it for mobile accordion */
+        display: none;
+    }
+    .green__cards .container h2 {
+        /* remove horizontal divider and change padding */
+        border-bottom: none;
+        padding: 60px 0 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* remove Green Cards mobile accordion on large screens and sub it for full list */
+    .green__cards__mobile {
+        display: none;
+    }
+}
+
+.collapsible-header {
+    /* style mobile accordion headers */
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.green__cards__mobile h3 {
+    padding: 0 0 20px;
 }
