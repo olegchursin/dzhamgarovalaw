@@ -2,6 +2,7 @@ html,
 body {
     font-family: Open Sans;
     height: 100%;
+    font-weight: 300;
 }
 
 
@@ -35,6 +36,7 @@ h3 {
 h4 {
     font-size: 1rem;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 
@@ -68,6 +70,7 @@ Navigation
 
 .nav-wrapper {
     margin-top: -2px;
+
 }
 
 nav {
@@ -193,6 +196,14 @@ Homepage visas section
 *********************/
 .visas {
     background-color: #1c2c58;
+    color: #fff;
+}
+.visas a {
+    color: #fff;
+    line-height: 1.8rem;
+}
+.visas a:hover {
+    color: #9E9E9E;
 }
 .visas .container {
     padding-bottom: 100px;
@@ -206,5 +217,40 @@ Homepage visas section
     border-bottom: 1px solid #fff;
 }
 .visas .container h4 {
+    color: #fff;
+    padding-top: 30px;
+}
+.visas .container a h4:hover {
+    color: #9E9E9E;
+}
+
+/*********************
+
+Homepage Green Cards section
+
+*********************/
+
+.green__cards {
+    color: #1c2c58;
+}
+.green__cards a {
+    color: #1c2c58;
+    line-height: 1.8rem;
+}
+.green__cards a:hover {
+    color: #9E9E9E;
+}
+.green__cards .container {
+    padding-bottom: 100px;
+}
+.green__cards .container h2, h4 {
+    color: #1c2c58;
+}
+.green__cards .container h2 {
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 1px solid #1c2c58;
+}
+.green__cards .container h4 {
     padding-top: 30px;
 }
