@@ -5,6 +5,11 @@ body {
     font-weight: 300;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 
 /*********
 
@@ -38,6 +43,47 @@ h4 {
     text-transform: uppercase;
     font-weight: 600;
 }
+p {
+    color: #000;
+}
+p span {
+    color: #1c2c58;
+    font-weight: 600;
+}
+
+ul {
+  list-style: disc outside none;
+}
+
+li span {
+    color: #1c2c58;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #9E9E9E;
+}
+
+
+/**************
+
+Pagination
+
+**************/
+.pagination {
+    padding-top: 40px;
+}
+.breadcrumb {
+    color: #000;
+    font-size: .8em;
+}
+a.breadcrumb::before {
+    color: #000;
+    font-size: 1.5em;
+}
+.breadcrumb:last-child {
+    color: #9E9E9E;
+}
 
 
 /**************
@@ -45,6 +91,40 @@ h4 {
 Common elements
 
 **************/
+
+
+
+.padding-top-80 {
+    padding-top: 80px;
+}
+
+.margin-left-40 {
+    margin-left: 40px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.padding-tb-40 {
+    padding: 40px 0;
+}
+
+.padding-tb-80 {
+    padding: 80px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Hide Side navigation on small screens */
+    .side-nav-title {
+        padding-top: 40px;
+    }
+}
+
+.side-nav-list {
+    margin-left: 10px;
+    padding: 10px 0;
+}
 
 .follow-up__link {
     text-transform: uppercase;
@@ -59,6 +139,81 @@ Common elements
 .icon__expand {
     float: right;
     padding-top: 12px;
+}
+.border-wh {
+    background: transparent;
+    border: 1px solid #fff;
+}
+.text__primary {
+    color: #1c2c58;
+}
+
+#heart {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 11px;
+}
+
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 7px;
+    top: 2px;
+    width: 7px;
+    height: 10px;
+    background: #425871;
+    -moz-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.inner-page-intro {
+    height: 20%;
+    background-color: #1c2c58;
+    margin-top: 63px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust Inner page intro section top margin to fit top nav */
+    .inner-page-intro {
+        margin-top: 56px;
+    }
+}
+
+.inner-page-intro h1 {
+    color: #fff;
+    padding-top: 25px;
+}
+
+.web-resources {
+    border-bottom: 1px solid #1c2c58;
+    padding: 30px 0 10px;
+    margin-top: 60px;
 }
 
 
@@ -162,7 +317,7 @@ Homepage intro section
     display: block;
     margin: 0 auto;
     text-align: center;
-    top: 90%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 20px;
@@ -321,6 +476,41 @@ h4 {
     padding: 0 0 20px;
 }
 
+/**********
+
+Citizenship
+
+**********/
+.citizenship {
+    background: url("../img/citizenship.jpg") no-repeat center center;
+}
+
+.citizenship__cards {
+    margin-top: 60px;
+}
+
+.card-panel h4 {
+    color: #fff;
+}
+
+.card-panel:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Change White-text to blue */
+.card-panel:hover h4 {
+    color: #1c2c58;
+}
+
+
+/*****
+
+Footer
+
+******/
+
+
 .page-footer {
     background-color: #fff;
 }
@@ -329,6 +519,90 @@ h4 {
     text-color: #1c2c58;
 }
 
+.page-footer a:hover {
+    color: #9E9E9E;
+}
+
 .page-footer .footer-copyright {
-    background-color: #1c2c58;
+    background-color: #fff;
+    color: #1c2c58;
+    font-size: .8rem;
+    padding-bottom: 60px;
+}
+.page-footer .footer-copyright .container {
+    border-top: 1px solid #1c2c58;
+}
+
+.page-footer .footer-copyright .container .row {
+    padding-top: 15px;
+}
+
+.footer__logo {
+    width: 200px;
+    padding: 40px 0;
+}
+
+#fixed-footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background: #0f191c;
+    font-size: .8em;
+    text-align: center;
+    z-index: 100;
+}
+
+#fixed-footer h3 {
+    margin-top: 18px;
+}
+
+#fixed-footer h3 span {
+    border-right: 2px solid #2c3c42;
+    padding: 0px 3px;
+}
+
+/*remove divider from the static footer and transform CTAs into buttons*/
+
+@media screen and (max-width: 550px) {
+    #fixed-footer h3 span {
+        display: none;
+    }
+    .fixed-footer-cta-1 {
+        margin: 1px auto;
+        border: solid #039be5 2px;
+        -webkit-border-radius: 2;
+        -moz-border-radius: 2;
+        border-radius: 2px;
+        width: 200px;
+        height: 45px;
+        padding: 2px 20px;
+        background: #039be5;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Oswald;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 1em;
+        text-align: center;
+    }
+    .fixed-footer-cta-2 {
+        margin: 1px auto 1px 10px;
+        border: solid #039be5 2px;
+        -webkit-border-radius: 2;
+        -moz-border-radius: 2;
+        border-radius: 2px;
+        width: 200px;
+        height: 45px;
+        padding: 2px 20px;
+        background: #039be5;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Oswald;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 1em;
+        text-align: center;
+    }
 }
