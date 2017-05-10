@@ -51,9 +51,6 @@ p span {
     font-weight: 600;
 }
 
-ul {
-  list-style: disc outside none;
-}
 
 li span {
     color: #1c2c58;
@@ -63,6 +60,35 @@ li span {
 a:hover {
     color: #9E9E9E;
 }
+
+td, th {
+    vertical-align: top;
+}
+
+/****
+
+Lists
+
+****/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+}
+
+ul li::before {
+  content: "• ";
+  color: grey; /* or whatever color you prefer */
+}
+
+/*ul li {
+  padding-left: 20px;
+}*/
 
 
 /**************
@@ -97,6 +123,9 @@ Common elements
 .padding-top-80 {
     padding-top: 80px;
 }
+.padding-top-40 {
+    padding-top: 40px;
+}
 
 .margin-left-40 {
     margin-left: 40px;
@@ -125,6 +154,7 @@ Common elements
     margin-left: 10px;
     padding: 10px 0;
 }
+
 
 .follow-up__link {
     text-transform: uppercase;
@@ -213,7 +243,7 @@ Common elements
 .web-resources {
     border-bottom: 1px solid #1c2c58;
     padding: 30px 0 10px;
-    margin-top: 60px;
+    margin: 60px 0 10px;
 }
 
 
@@ -239,6 +269,15 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1000;
+}
+
+nav ul li {
+  padding-left: 0; 
+  text-indent: 0;
+}
+
+nav ul li::before {
+  content: none;
 }
 
 nav a {
