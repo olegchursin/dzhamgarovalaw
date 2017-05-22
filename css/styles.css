@@ -43,14 +43,15 @@ h4 {
     text-transform: uppercase;
     font-weight: 600;
 }
+
 p {
     color: #000;
 }
+
 p span {
     color: #1c2c58;
     font-weight: 600;
 }
-
 
 li span {
     color: #1c2c58;
@@ -61,30 +62,35 @@ a:hover {
     color: #9E9E9E;
 }
 
-td, th {
+td,
+th {
     vertical-align: top;
 }
+
 
 /****
 
 Lists
 
 ****/
+
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul li {
-  padding-left: 1em; 
-  text-indent: -.7em;
+    padding-left: 1em;
+    text-indent: -.7em;
 }
 
 ul li::before {
-  content: "• ";
-  color: grey; /* or whatever color you prefer */
+    content: "• ";
+    color: grey;
+    /* or whatever color you prefer */
 }
+
 
 /*ul li {
   padding-left: 20px;
@@ -96,17 +102,21 @@ ul li::before {
 Pagination
 
 **************/
+
 .pagination {
     padding-top: 40px;
 }
+
 .breadcrumb {
     color: #000;
     font-size: .8em;
 }
+
 a.breadcrumb::before {
     color: #000;
     font-size: 1.5em;
 }
+
 .breadcrumb:last-child {
     color: #9E9E9E;
 }
@@ -118,11 +128,10 @@ Common elements
 
 **************/
 
-
-
 .padding-top-80 {
     padding-top: 80px;
 }
+
 .padding-top-40 {
     padding-top: 40px;
 }
@@ -155,13 +164,13 @@ Common elements
     padding: 10px 0;
 }
 
-
 .follow-up__link {
     text-transform: uppercase;
     color: #1c2c58;
 }
 
-.icon__arrow-right, .icon__expand {
+.icon__arrow-right,
+.icon__expand {
     width: 20px;
     margin-left: 20px;
 }
@@ -170,10 +179,12 @@ Common elements
     float: right;
     padding-top: 12px;
 }
+
 .border-wh {
     background: transparent;
     border: 1px solid #fff;
 }
+
 .text__primary {
     color: #1c2c58;
 }
@@ -246,6 +257,12 @@ Common elements
     margin: 60px 0 10px;
 }
 
+.external-icon {
+    margin-left: 10px;
+    width: 12px;
+    height: auto;
+}
+
 
 /*********
 
@@ -271,14 +288,37 @@ nav {
     z-index: 1000;
 }
 
+/* Remove ul>li style from the nav */
 nav ul li {
-  padding-left: 0; 
-  text-indent: 0;
+    padding-left: 0;
+    text-indent: 0;
 }
 
 nav ul li::before {
-  content: none;
+    content: none;
 }
+
+/* Remove ul>li style from the collapsible accordion tabs */
+/* Used in Green Card section of the index page on small screens*/
+.collapsible li {
+    padding-left: 0;
+    text-indent: 0;
+}
+
+.collapsible li:before {
+    content: none;
+}
+
+/* Remove ul>li style from the Visa Categories lists on the homepage */
+.visa-categories-ul ul li {
+    padding-left: 0;
+    text-indent: 0;
+}
+
+.visa-categories-ul ul li:before {
+    content: none;
+}
+
 
 nav a {
     color: #1c2c58;
@@ -343,6 +383,7 @@ Homepage intro section
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
 @media only screen and (max-width: 600px) {
     /* Adjust Intro section top margin to fit top nav */
     .intro {
@@ -515,11 +556,13 @@ h4 {
     padding: 0 0 20px;
 }
 
+
 /**********
 
 Citizenship
 
 **********/
+
 .citizenship {
     background: url("../img/citizenship.jpg") no-repeat center center;
 }
@@ -537,7 +580,9 @@ Citizenship
     cursor: pointer;
 }
 
+
 /* Change White-text to blue */
+
 .card-panel:hover h4 {
     color: #1c2c58;
 }
@@ -549,12 +594,12 @@ Footer
 
 ******/
 
-
 .page-footer {
     background-color: #fff;
 }
 
-.page-footer h4, p {
+.page-footer h4,
+p {
     text-color: #1c2c58;
 }
 
@@ -568,6 +613,7 @@ Footer
     font-size: .8rem;
     padding-bottom: 60px;
 }
+
 .page-footer .footer-copyright .container {
     border-top: 1px solid #1c2c58;
 }
@@ -602,22 +648,23 @@ Footer
     padding: 0px 3px;
 }
 
+
 /*remove divider from the static footer and transform CTAs into buttons*/
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1550px) {
     #fixed-footer h3 span {
         display: none;
     }
     .fixed-footer-cta-1 {
         margin: 1px auto;
-        border: solid #039be5 2px;
+        border: solid #fff 2px;
         -webkit-border-radius: 2;
         -moz-border-radius: 2;
         border-radius: 2px;
         width: 200px;
         height: 45px;
         padding: 2px 20px;
-        background: #039be5;
+        background: none;
         text-decoration: none;
         text-transform: uppercase;
         font-family: Oswald;
@@ -628,19 +675,37 @@ Footer
     }
     .fixed-footer-cta-2 {
         margin: 1px auto 1px 10px;
-        border: solid #039be5 2px;
+        border: solid #fff 2px;
         -webkit-border-radius: 2;
         -moz-border-radius: 2;
         border-radius: 2px;
         width: 200px;
         height: 45px;
         padding: 2px 20px;
-        background: #039be5;
+        background: none;
         text-decoration: none;
         text-transform: uppercase;
         font-family: Oswald;
         font-weight: 400;
         color: #ffffff;
+        font-size: 1em;
+        text-align: center;
+    }
+    .fixed-footer-cta-3 {
+        margin: 1px auto 1px 10px;
+        border: solid #fff 2px;
+        -webkit-border-radius: 2;
+        -moz-border-radius: 2;
+        border-radius: 2px;
+        width: 200px;
+        height: 45px;
+        padding: 2px 20px;
+        background: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: Oswald;
+        font-weight: 400;
+        color: #000;
         font-size: 1em;
         text-align: center;
     }
