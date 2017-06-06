@@ -61,6 +61,12 @@ li span {
 a:hover {
     color: #9E9E9E;
 }
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+    color: #1c2c58;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+    color: #9E9E9E;
+}
 
 td,
 th {
@@ -91,10 +97,6 @@ ul li::before {
     /* or whatever color you prefer */
 }
 
-
-/*ul li {
-  padding-left: 20px;
-}*/
 
 
 /**************
@@ -263,6 +265,13 @@ Common elements
     height: auto;
 }
 
+/* Modal */
+
+
+.card-image img {
+    width: 100px;
+    height: 177px;
+}
 
 /*********
 
@@ -272,7 +281,7 @@ Navigation
 
 .nav-top {
     background-color: #1c2c58;
-    height: 5px;
+    height: 3px;
 }
 
 .nav-wrapper {
@@ -338,7 +347,7 @@ nav ul a:hover {
 
 .side-nav-logo {
     /* Styling logo wrapper on mobile screens*/
-    height: 200px;
+    height: 150px;
     background-color: #1c2c58;
     margin-bottom: 10px;
 }
@@ -346,25 +355,13 @@ nav ul a:hover {
 .side-nav-logo img {
     /* Styling logo img on mobile screens*/
     width: 200px;
-    padding: 85px 32px;
+    padding: 60px 32px;
     margin: 0 auto;
 }
 
 .brand-logo {
     /* Styling logo on large screens*/
-    width: 150px;
-}
-
-@media only screen and (min-width: 600px) {
-    .brand-logo {
-        margin-left: 60px;
-    }
-}
-
-@media only screen and (min-width: 300px) {
-    .brand-logo {
-        margin-left: 30px;
-    }
+    width: 200px;
 }
 
 
@@ -623,8 +620,8 @@ p {
 }
 
 .footer__logo {
-    width: 200px;
-    padding: 40px 0;
+    width: 250px;
+    padding: 20px 0;
 }
 
 #fixed-footer {
