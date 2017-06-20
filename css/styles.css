@@ -61,9 +61,11 @@ li span {
 a:hover {
     color: #9E9E9E;
 }
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
     color: #1c2c58;
 }
+
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
     color: #9E9E9E;
 }
@@ -96,7 +98,6 @@ ul li::before {
     color: grey;
     /* or whatever color you prefer */
 }
-
 
 
 /**************
@@ -265,13 +266,35 @@ Common elements
     height: auto;
 }
 
-/* Modal */
+.fixed-action-btn {
+    position: fixed;
+    right: 15px;
+    bottom: 33px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
 
+.btn-floating.btn-large {
+    width: 53px;
+    height: 53px;
+    background-color: #fff;
+}
+
+.img-awards {
+    width: 170px;
+    height: auto;
+    display: inline-block;
+}
+
+
+/* Modal */
 
 .card-image img {
     width: 100px;
     height: 177px;
 }
+
 
 /*********
 
@@ -297,7 +320,9 @@ nav {
     z-index: 1000;
 }
 
+
 /* Remove ul>li style from the nav */
+
 nav ul li {
     padding-left: 0;
     text-indent: 0;
@@ -307,8 +332,12 @@ nav ul li::before {
     content: none;
 }
 
+
 /* Remove ul>li style from the collapsible accordion tabs */
+
+
 /* Used in Green Card section of the index page on small screens*/
+
 .collapsible li {
     padding-left: 0;
     text-indent: 0;
@@ -318,7 +347,9 @@ nav ul li::before {
     content: none;
 }
 
+
 /* Remove ul>li style from the Visa Categories lists on the homepage */
+
 .visa-categories-ul ul li {
     padding-left: 0;
     text-indent: 0;
@@ -327,7 +358,6 @@ nav ul li::before {
 .visa-categories-ul ul li:before {
     content: none;
 }
-
 
 nav a {
     color: #1c2c58;
