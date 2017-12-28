@@ -11,6 +11,8 @@ img {
 }
 
 
+
+
 /*********
 
 Typography 
@@ -22,6 +24,12 @@ h2,
 h3 {
     font-family: 'Cardo', serif;
     color: #1c2c58;
+}
+
+.impressum h3 {
+    font-family: Open Sans;
+    font-size: 1.2em;
+    font-weight: 300;
 }
 
 h1 {
@@ -76,6 +84,8 @@ th {
 }
 
 
+
+
 /****
 
 Lists
@@ -98,6 +108,8 @@ ul li::before {
     color: grey;
     /* or whatever color you prefer */
 }
+
+
 
 
 /**************
@@ -123,6 +135,8 @@ a.breadcrumb::before {
 .breadcrumb:last-child {
     color: #9E9E9E;
 }
+
+
 
 
 /**************
@@ -288,12 +302,16 @@ Common elements
 }
 
 
+
+
 /* Modal */
 
 .card-image img {
     width: 100px;
     height: 177px;
 }
+
+
 
 
 /*********
@@ -321,6 +339,8 @@ nav {
 }
 
 
+
+
 /* Remove ul>li style from the nav */
 
 nav ul li {
@@ -331,6 +351,8 @@ nav ul li {
 nav ul li::before {
     content: none;
 }
+
+
 
 
 /* Remove ul>li style from the collapsible accordion tabs */
@@ -346,6 +368,8 @@ nav ul li::before {
 .collapsible li:before {
     content: none;
 }
+
+
 
 
 /* Remove ul>li style from the Visa Categories lists on the homepage */
@@ -389,10 +413,24 @@ nav ul a:hover {
     margin: 0 auto;
 }
 
+.mobile-nav-lang h4 {
+    /* Styling 'Select a language' section on mobile nav*/
+    margin-top: 60px;
+    padding-left: 32px;
+}
+
+.mobile-nav-lang a {
+    /* Styling 'Select a language' section on mobile nav*/
+    display: inline-block;
+    padding: 0 0 0 32px;
+}
+
 .brand-logo {
     /* Styling logo on large screens*/
     width: 200px;
 }
+
+
 
 
 /*********************
@@ -438,6 +476,46 @@ Homepage intro section
     }
 }
 
+
+/* Language Selector */
+
+.lang-selector {
+    position: fixed;
+    right: -50px;
+    top: 90px;
+    width: 90px;
+    height: 35px;
+    padding: 5px 0 5px 10px;
+    background-color: #1c2c58;
+    color: #fff;
+    text-align: left;
+    -webkit-transition: all 0.3s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.lang-selector:hover {
+    right: 0px;
+    cursor: pointer;
+}
+
+.lang-selector.show {
+    right: 0px;
+}
+
+.lang-selector a {
+    color: #fff;
+    display: inline-block;
+}
+
+.lang-selector__icon {
+    display: inline-block;
+    height: 30px;
+    widht: auto;
+}
+
+
+/* End Language Selector */
+
 .impressum {
     margin: 60px 0 0 32px;
 }
@@ -464,9 +542,17 @@ Homepage intro section
     opacity: .8;
 }
 
+.intro__address-ru {
+    height: 180px;
+    background: url("../img/contact-intro-ru.svg") no-repeat center center;
+    opacity: .8;
+}
+
 .intro__address__content {
     margin-left: 30px;
 }
+
+
 
 
 /*****************
@@ -513,6 +599,8 @@ h4 {
 .blue__bkgr .container a h4:hover {
     color: #9E9E9E;
 }
+
+
 
 
 /***************************
@@ -584,6 +672,8 @@ h4 {
 }
 
 
+
+
 /**********
 
 Citizenship
@@ -608,11 +698,15 @@ Citizenship
 }
 
 
+
+
 /* Change White-text to blue */
 
 .card-panel:hover h4 {
     color: #1c2c58;
 }
+
+
 
 
 /*****
@@ -674,6 +768,8 @@ p {
     border-right: 2px solid #2c3c42;
     padding: 0px 3px;
 }
+
+
 
 
 /*remove divider from the static footer and transform CTAs into buttons*/
