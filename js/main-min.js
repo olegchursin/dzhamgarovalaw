@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".button-collapse").sideNav(),$(".modal").modal(),$(".lang-selector").click(function(){$(this).toggleClass("show")})});

@@ -1,0 +1,6873 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "43CD24E1-DAAE-4D2F-BD39-358456840CC7"
+		}
+	],
+"creatorBuild": "26148",
+"files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.htaccess",
+		"oF": 0
+		},
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
+	"\/adjustment-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/adjustment-of-status.html",
+		"oF": 0
+		},
+	"\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 10719,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 9962,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 15745,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 17801,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3770,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-57x57.png",
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 3884,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 5467,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 5580,
+		"oA": 0,
+		"oAP": "\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/.gitignore",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/.htaccess",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/about.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/adjustment-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/adjustment-of-status.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 10719,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 9962,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 15745,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 17801,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3770,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 3884,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 5467,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 5580,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/~$новная.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/~$новная.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/B1B2.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/B1B2.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/F1.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/F1.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/H1B.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/H1B.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/H2BH3.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/H2BH3.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/K1K2.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/K1K2.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/L1.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/L1.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Виза  U.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Виза  U.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Виза J.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Виза J.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Виза R.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Виза R.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/ВИЗА К3.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/ВИЗА К3.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Визы P.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Визы P.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Визы категории Т.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Визы категории Т.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Группа E.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Группа E.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/М.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/М.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/О.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/О.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Что такое американская виза.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Визы\/Что такое американская виза.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/OPT.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/OPT.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/близкие родственники.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/близкие родственники.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через брак.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через брак.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через РабВизу.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через РабВизу.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК черезH1B.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК черезH1B.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Иммиграция через трудоустройство.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Иммиграция через трудоустройство.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Рабочие визы как на сайте.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Рабочие визы как на сайте.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Члены семьи обладателя визы H1B.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Члены семьи обладателя визы H1B.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Гражданство\/Гражданство через натурализацию.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Гражданство\/Гражданство через натурализацию.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Гражданство\/Получение гражданства США через службу в армии.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Гражданство\/Получение гражданства США через службу в армии.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Гражданство\/Через родителей.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Гражданство\/Через родителей.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Основная.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Основная.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Нетрадиционная Ориентация.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Нетрадиционная Ориентация.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Полит.убежище.Основное.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Полит.убежище.Основное.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Политические Убеждения.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Политические Убеждения.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Правило подачи заявки на  грин.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Правило подачи заявки на  грин.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Раса и Национальность.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Раса и Национальность.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Религиозные Взгляды.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Религиозные Взгляды.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Социальная Группа.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/assets\/Russian\/Полит убежище\/Социальная Группа.docx",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/asylum-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/asylum-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/citizenship.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/citizenship.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/citizenship\/dual.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/citizenship\/dual.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/citizenship\/military-naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/citizenship\/military-naturalization.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/citizenship\/naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/citizenship\/naturalization.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/citizenship\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/citizenship\/parents.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/college-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/college-graduates.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/contact.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/css\/materialize.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/css\/materialize-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/2017-10-17_Backup\/css\/materialize.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/css\/materialize.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/2017-10-17_Backup\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/2017-10-17_Backup\/emloyment-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/emloyment-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/about.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/adjustment-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/adjustment-of-status.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/asylum-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/asylum-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/citizenship.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/citizenship.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/citizenship\/dual.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/citizenship\/dual.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/citizenship\/military-naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/citizenship\/military-naturalization.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/citizenship\/naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/citizenship\/naturalization.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/citizenship\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/citizenship\/parents.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/college-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/college-graduates.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/contact.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/emloyment-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/emloyment-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/family-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/family-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/180-day-portability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/180-day-portability.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/245i.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/245i.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/245k.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/245k.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/adjustment-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/adjustment-of-status.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/adoption.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/adoption.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/age-freeze.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/age-freeze.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/asylum-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/asylum-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/brother-sister.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/brother-sister.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/college-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/college-graduates.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/consular-processing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/consular-processing.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/duration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/duration.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/eb-immigration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/eb-immigration.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/eb5-investments.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/eb5-investments.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/employment-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/employment-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/exceptional-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/exceptional-ability.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/executives-managers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/executives-managers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/extraordinary-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/extraordinary-ability.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/family-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/family-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/family-members.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/family-members.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/formula.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/formula.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/h1b-cap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/h1b-cap.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/h1b-procedure.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/h1b-procedure.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/immediate-relatives.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/immediate-relatives.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/lgbt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/lgbt.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/marriage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/marriage.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/married-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/married-child.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/nationality.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/nationality.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/one-child-policy-PRC.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/one-child-policy-PRC.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/one-year-filing-rule.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/one-year-filing-rule.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/opt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/opt.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/parents.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/particular-social-group.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/particular-social-group.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/PERM.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/PERM.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/political-opinion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/political-opinion.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/professors-and-researchers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/professors-and-researchers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/race.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/race.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/religion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/religion.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/religious-workers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/religious-workers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/sought-to-acquire.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/sought-to-acquire.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/spouse-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/spouse-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/unlawful-presence-bars-and-waivers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/unlawful-presence-bars-and-waivers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/unmarried-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/unmarried-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/unmarried-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/unmarried-child.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/green-cards\/work-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/green-cards\/work-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/index.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/legal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/legal.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/sitemap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/sitemap.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/athletes-entertainers-p-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/athletes-entertainers-p-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/change-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/change-of-status.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/crime-victims-u-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/crime-victims-u-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/exchange-visitors-j-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/exchange-visitors-j-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/extension-of-stay.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/extension-of-stay.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/extraordinary-ability-o-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/extraordinary-ability-o-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/fiancees-of-us-citizens-k1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/fiancees-of-us-citizens-k1-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/intracompany-transferee-l1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/intracompany-transferee-l1-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/professionals-h1b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/professionals-h1b-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/religios-workers-r-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/religios-workers-r-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/spouses-of-us-citizens-k3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/spouses-of-us-citizens-k3-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/students-f-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/students-f-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/temporary-workers-h2b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/temporary-workers-h2b-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/trainees-h3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/trainees-h3-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/treaty-investors-e2-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/treaty-investors-e2-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/treaty-traders-e1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/treaty-traders-e1-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/victims-of-human-trafficking-t-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/victims-of-human-trafficking-t-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/en\/visas\/visitors-b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/en\/visas\/visitors-b-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/family-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/family-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/favicon-128.png": {
+		"ft": 32768,
+		"iS": 7422,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/favicon-128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 762,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/favicon-196x196.png": {
+		"ft": 32768,
+		"iS": 27637,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/favicon-196x196.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1556,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 7240,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/favicon.ico",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.eot",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.ttf",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.woff",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Bold.woff2",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.eot",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.ttf",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.woff",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Light.woff2",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.eot",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.ttf",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.woff",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Medium.woff2",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.eot",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.ttf",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.woff",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Regular.woff2",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.eot",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.ttf",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.woff",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/fonts\/roboto\/Roboto-Thin.woff2",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/180-day-portability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/180-day-portability.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/245i.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/245i.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/245k.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/245k.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/adjustment-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/adjustment-of-status.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/adoption.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/adoption.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/age-freeze.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/age-freeze.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/asylum-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/asylum-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/brother-sister.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/brother-sister.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/college-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/college-graduates.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/consular-processing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/consular-processing.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/duration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/duration.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/eb-immigration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/eb-immigration.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/eb5-investments.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/eb5-investments.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/employment-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/employment-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/exceptional-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/exceptional-ability.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/executives-managers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/executives-managers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/extraordinary-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/extraordinary-ability.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/family-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/family-based.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/family-members.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/family-members.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/formula.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/formula.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/h1b-cap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/h1b-cap.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/h1b-procedure.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/h1b-procedure.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/immediate-relatives.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/immediate-relatives.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/lgbt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/lgbt.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/marriage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/marriage.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/married-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/married-child.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/nationality.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/nationality.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/one-child-policy-PRC.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/one-child-policy-PRC.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/one-year-filing-rule.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/one-year-filing-rule.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/opt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/opt.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/parents.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/particular-social-group.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/particular-social-group.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/PERM.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/PERM.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/political-opinion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/political-opinion.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/professors-and-researchers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/professors-and-researchers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/race.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/race.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/religion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/religion.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/religious-workers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/religious-workers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/sought-to-acquire.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/sought-to-acquire.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/spouse-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/spouse-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/unlawful-presence-bars-and-waivers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/unlawful-presence-bars-and-waivers.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/unmarried-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/unmarried-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/unmarried-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/unmarried-child.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/green-cards\/work-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/green-cards\/work-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/arrow-right-wh.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/arrow-right-wh.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/avvo-badges-2016.png": {
+		"ft": 32768,
+		"iS": 49699,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/avvo-badges-2016.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/avvo-badges.jpg": {
+		"ft": 16384,
+		"iS": 80685,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/avvo-badges.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-01.jpg": {
+		"ft": 16384,
+		"iS": 272909,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-02.jpg": {
+		"ft": 16384,
+		"iS": 183590,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-03.jpg": {
+		"ft": 16384,
+		"iS": 240702,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-04.jpg": {
+		"ft": 16384,
+		"iS": 202598,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-05.jpg": {
+		"ft": 16384,
+		"iS": 141853,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-06.jpg": {
+		"ft": 16384,
+		"iS": 142476,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-07.jpg": {
+		"ft": 16384,
+		"iS": 182487,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-08.jpg": {
+		"ft": 16384,
+		"iS": 278700,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-09.jpg": {
+		"ft": 16384,
+		"iS": 314440,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-10.jpg": {
+		"ft": 16384,
+		"iS": 116729,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-11.jpg": {
+		"ft": 16384,
+		"iS": 190907,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/awards-12.jpg": {
+		"ft": 16384,
+		"iS": 331800,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/awards-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/citizenship.jpg": {
+		"ft": 16384,
+		"iS": 618005,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/citizenship.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/contact-intro.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/contact-intro.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/contact-intro@2x.png": {
+		"ft": 32768,
+		"iS": 62582,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/contact-intro@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dhzamgarovalaw-hero-photo.jpg": {
+		"ft": 16384,
+		"iS": 566838,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dhzamgarovalaw-hero-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dzh-map-miami.jpg": {
+		"ft": 16384,
+		"iS": 16463,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dzh-map-miami.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dzh-map-nyc.jpg": {
+		"ft": 16384,
+		"iS": 19061,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dzh-map-nyc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dzh-miami.jpg": {
+		"ft": 16384,
+		"iS": 32195,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dzh-miami.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dzh-new-york.jpg": {
+		"ft": 16384,
+		"iS": 31909,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dzh-new-york.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dzhamgarova-logo-gld.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dzhamgarova-logo-gld.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dzhamgarova-logo-v2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dzhamgarova-logo-v2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/dzhamgarova-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/dzhamgarova-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/expand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/expand.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/external-site.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/external-site.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/external-site@2x-100.jpg": {
+		"ft": 16384,
+		"iS": 76722,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/external-site@2x-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/external-site@4x.png": {
+		"ft": 32768,
+		"iS": 4774,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/external-site@4x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/law-practice-2.jpg": {
+		"ft": 16384,
+		"iS": 214372,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/law-practice-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/law-practice.jpg": {
+		"ft": 16384,
+		"iS": 226843,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/law-practice.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/logo-circl-inv.jpg": {
+		"ft": 16384,
+		"iS": 85931,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/logo-circl-inv.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/logo-circl-inv.png": {
+		"ft": 32768,
+		"iS": 6179,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/logo-circl-inv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/logo-circl-inv.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/logo-circl-inv.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/logo-circl.jpg": {
+		"ft": 16384,
+		"iS": 105972,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/logo-circl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/logo-circl.png": {
+		"ft": 32768,
+		"iS": 6216,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/logo-circl.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/img\/logo-circl.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/logo-circl.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/reading-visa.gif": {
+		"ft": 4194304,
+		"iS": 95310,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/reading-visa.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/scroll-down-icon-bk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/scroll-down-icon-bk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/scroll-down-icon-wh.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/scroll-down-icon-wh.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/testimonial.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/testimonial.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/2017-10-17_Backup\/img\/visa.jpg": {
+		"ft": 16384,
+		"iS": 169704,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/img\/visa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/index.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/js\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/2017-10-17_Backup\/js\/materialize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/2017-10-17_Backup\/js\/materialize.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/js\/materialize.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/2017-10-17_Backup\/legal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/legal.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 15745,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 50215,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 80351,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 184327,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 7422,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/2017-10-17_Backup\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/2017-10-17_Backup\/sitemap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/sitemap.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/athletes-entertainers-p-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/athletes-entertainers-p-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/change-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/change-of-status.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/crime-victims-u-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/crime-victims-u-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/exchange-visitors-j-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/exchange-visitors-j-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/extension-of-stay.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/extension-of-stay.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/extraordinary-ability-o-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/extraordinary-ability-o-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/fiancees-of-us-citizens-k1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/fiancees-of-us-citizens-k1-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/intracompany-transferee-l1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/intracompany-transferee-l1-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/professionals-h1b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/professionals-h1b-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/religios-workers-r-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/religios-workers-r-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/spouses-of-us-citizens-k3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/spouses-of-us-citizens-k3-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/students-f-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/students-f-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/temporary-workers-h2b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/temporary-workers-h2b-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/trainees-h3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/trainees-h3-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/treaty-investors-e2-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/treaty-investors-e2-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/treaty-traders-e1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/treaty-traders-e1-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/victims-of-human-trafficking-t-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/victims-of-human-trafficking-t-visas.html",
+		"oF": 0
+		},
+	"\/assets\/2017-10-17_Backup\/visas\/visitors-b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/2017-10-17_Backup\/visas\/visitors-b-visas.html",
+		"oF": 0
+		},
+	"\/assets\/logo\/contact-intro-ru.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/logo\/contact-intro-ru.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/logo\/contact-intro-ru@2x-100.jpg": {
+		"ft": 16384,
+		"iS": 166192,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/contact-intro-ru@2x-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/logo\/contact-intro-ru@2x.png": {
+		"ft": 32768,
+		"iS": 41188,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/contact-intro-ru@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/logo\/contact-intro.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/contact-intro.ai",
+		"oF": 0
+		},
+	"\/assets\/logo\/dzhamgarova-logo-gld-ru.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/logo\/dzhamgarova-logo-gld-ru.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/logo\/dzhamgarova-logo-gld-ru@2x-100.jpg": {
+		"ft": 16384,
+		"iS": 74533,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/dzhamgarova-logo-gld-ru@2x-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/logo\/dzhamgarova-logo-gld-ru@2x.png": {
+		"ft": 32768,
+		"iS": 7414,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/dzhamgarova-logo-gld-ru@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/logo\/dzhamgarova-logo-ru.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/logo\/dzhamgarova-logo-ru.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/logo\/dzhamgarova-logo-ru@2x-100.jpg": {
+		"ft": 16384,
+		"iS": 97263,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/dzhamgarova-logo-ru@2x-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/logo\/dzhamgarova-logo-ru@2x.png": {
+		"ft": 32768,
+		"iS": 11889,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/dzhamgarova-logo-ru@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/logo\/lang-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/logo\/lang-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/logo\/lang-icon@2x-100.jpg": {
+		"ft": 16384,
+		"iS": 91677,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/lang-icon@2x-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/logo\/lang-icon@2x.png": {
+		"ft": 32768,
+		"iS": 3537,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/lang-icon@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/logo\/lang-icon_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/logo\/lang-icon_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/logo\/lang-icon_1@2x-100.jpg": {
+		"ft": 16384,
+		"iS": 58477,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/lang-icon_1@2x-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/logo\/lang-icon_1@2x.png": {
+		"ft": 32768,
+		"iS": 1442,
+		"oA": 0,
+		"oAP": "\/assets\/logo\/lang-icon_1@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/Russian\/Визы\/B1B2.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/B1B2.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/F1.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/F1.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/H1B.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/H1B.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/H2BH3.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/H2BH3.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/K1K2.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/K1K2.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/L1.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/L1.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/Виза  U.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/Виза  U.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/Виза J.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/Виза J.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/Виза R.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/Виза R.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/ВИЗА К3.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/ВИЗА К3.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/Визы P.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/Визы P.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/Визы категории Т.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/Визы категории Т.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/Группа E.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/Группа E.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/М.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/М.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/О.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/О.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Визы\/Что такое американская виза.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Визы\/Что такое американская виза.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/OPT.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/OPT.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/близкие родственники.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/близкие родственники.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через брак.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через брак.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через РабВизу.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК через РабВизу.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК черезH1B.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/ГК черезH1B.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Иммиграция через трудоустройство.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Иммиграция через трудоустройство.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Рабочие визы как на сайте.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Рабочие визы как на сайте.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Члены семьи обладателя визы H1B.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/ГК через брак, учебу,работу, родне\/Члены семьи обладателя визы H1B.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Гражданство\/Гражданство через натурализацию.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Гражданство\/Гражданство через натурализацию.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Гражданство\/Получение гражданства США через службу в армии.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Гражданство\/Получение гражданства США через службу в армии.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Гражданство\/Через родителей.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Гражданство\/Через родителей.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Основная.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Основная.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Полит убежище\/Нетрадиционная Ориентация.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Полит убежище\/Нетрадиционная Ориентация.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Полит убежище\/Полит.убежище.Основное.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Полит убежище\/Полит.убежище.Основное.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Полит убежище\/Политические Убеждения.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Полит убежище\/Политические Убеждения.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Полит убежище\/Правило подачи заявки на  грин.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Полит убежище\/Правило подачи заявки на  грин.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Полит убежище\/Раса и Национальность.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Полит убежище\/Раса и Национальность.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Полит убежище\/Религиозные Взгляды.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Полит убежище\/Религиозные Взгляды.docx",
+		"oF": 0
+		},
+	"\/assets\/Russian\/Полит убежище\/Социальная Группа.docx": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/Russian\/Полит убежище\/Социальная Группа.docx",
+		"oF": 0
+		},
+	"\/asylum-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asylum-guide.html",
+		"oF": 0
+		},
+	"\/citizenship.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/citizenship.html",
+		"oF": 0
+		},
+	"\/citizenship\/dual.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/citizenship\/dual.html",
+		"oF": 0
+		},
+	"\/citizenship\/military-naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/citizenship\/military-naturalization.html",
+		"oF": 0
+		},
+	"\/citizenship\/naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/citizenship\/naturalization.html",
+		"oF": 0
+		},
+	"\/citizenship\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/citizenship\/parents.html",
+		"oF": 0
+		},
+	"\/college-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/college-graduates.html",
+		"oF": 0
+		},
+	"\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
+	"\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/css\/materialize.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/materialize-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/materialize.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/materialize.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/emloyment-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/emloyment-based.html",
+		"oF": 0
+		},
+	"\/en\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/about.html",
+		"oF": 0
+		},
+	"\/en\/citizenship.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/citizenship.html",
+		"oF": 0
+		},
+	"\/en\/citizenship\/dual.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/citizenship\/dual.html",
+		"oF": 0
+		},
+	"\/en\/citizenship\/military-naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/citizenship\/military-naturalization.html",
+		"oF": 0
+		},
+	"\/en\/citizenship\/naturalization.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/citizenship\/naturalization.html",
+		"oF": 0
+		},
+	"\/en\/citizenship\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/citizenship\/parents.html",
+		"oF": 0
+		},
+	"\/en\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/contact.html",
+		"oF": 0
+		},
+	"\/en\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/en\/green-cards.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/180-day-portability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/180-day-portability.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/245i.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/245i.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/245k.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/245k.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/adjustment-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/adjustment-of-status.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/adoption.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/adoption.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/age-freeze.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/age-freeze.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/asylum-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/asylum-guide.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/brother-sister.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/brother-sister.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/college-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/college-graduates.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/consular-processing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/consular-processing.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/duration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/duration.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/eb-immigration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/eb-immigration.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/eb5-investments.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/eb5-investments.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/employment-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/employment-based.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/exceptional-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/exceptional-ability.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/executives-managers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/executives-managers.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/extraordinary-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/extraordinary-ability.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/family-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/family-based.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/family-members.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/family-members.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/formula.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/formula.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/h1b-cap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/h1b-cap.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/h1b-procedure.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/h1b-procedure.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/immediate-relatives.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/immediate-relatives.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/lgbt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/lgbt.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/marriage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/marriage.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/married-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/married-child.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/nationality.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/nationality.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/one-child-policy-PRC.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/one-child-policy-PRC.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/one-year-filing-rule.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/one-year-filing-rule.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/opt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/opt.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/parents.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/particular-social-group.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/particular-social-group.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/PERM.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/PERM.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/political-opinion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/political-opinion.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/professors-and-researchers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/professors-and-researchers.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/race.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/race.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/religion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/religion.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/religious-workers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/religious-workers.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/sought-to-acquire.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/sought-to-acquire.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/spouse-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/spouse-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/unlawful-presence-bars-and-waivers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/unlawful-presence-bars-and-waivers.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/unmarried-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/unmarried-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/unmarried-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/unmarried-child.html",
+		"oF": 0
+		},
+	"\/en\/green-cards\/work-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/green-cards\/work-visas.html",
+		"oF": 0
+		},
+	"\/en\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/index.html",
+		"oF": 0
+		},
+	"\/en\/legal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/legal.html",
+		"oF": 0
+		},
+	"\/en\/sitemap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/sitemap.html",
+		"oF": 0
+		},
+	"\/en\/visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/athletes-entertainers-p-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/athletes-entertainers-p-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/change-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/change-of-status.html",
+		"oF": 0
+		},
+	"\/en\/visas\/crime-victims-u-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/crime-victims-u-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/exchange-visitors-j-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/exchange-visitors-j-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/extension-of-stay.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/extension-of-stay.html",
+		"oF": 0
+		},
+	"\/en\/visas\/extraordinary-ability-o-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/extraordinary-ability-o-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/fiancees-of-us-citizens-k1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/fiancees-of-us-citizens-k1-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/intracompany-transferee-l1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/intracompany-transferee-l1-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/professionals-h1b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/professionals-h1b-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/religios-workers-r-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/religios-workers-r-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/spouses-of-us-citizens-k3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/spouses-of-us-citizens-k3-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/students-f-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/students-f-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/temporary-workers-h2b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/temporary-workers-h2b-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/trainees-h3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/trainees-h3-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/treaty-investors-e2-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/treaty-investors-e2-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/treaty-traders-e1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/treaty-traders-e1-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/victims-of-human-trafficking-t-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/victims-of-human-trafficking-t-visas.html",
+		"oF": 0
+		},
+	"\/en\/visas\/visitors-b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/en\/visas\/visitors-b-visas.html",
+		"oF": 0
+		},
+	"\/family-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/family-based.html",
+		"oF": 0
+		},
+	"\/favicon-128.png": {
+		"ft": 32768,
+		"iS": 7422,
+		"oA": 0,
+		"oAP": "\/favicon-128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 762,
+		"oA": 0,
+		"oAP": "\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon-196x196.png": {
+		"ft": 32768,
+		"iS": 27637,
+		"oA": 0,
+		"oAP": "\/favicon-196x196.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1556,
+		"oA": 0,
+		"oAP": "\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 7240,
+		"oA": 0,
+		"oAP": "\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Bold.eot",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Bold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Light.eot",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Light.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Light.woff2",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Medium.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Medium.eot",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Medium.ttf",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Medium.woff",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Medium.woff2",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Regular.woff2",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Thin.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Thin.eot",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Thin.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Thin.ttf",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Thin.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Thin.woff",
+		"oF": 0
+		},
+	"\/fonts\/roboto\/Roboto-Thin.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/roboto\/Roboto-Thin.woff2",
+		"oF": 0
+		},
+	"\/green-cards.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards.html",
+		"oF": 0
+		},
+	"\/green-cards\/180-day-portability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/180-day-portability.html",
+		"oF": 0
+		},
+	"\/green-cards\/245i.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/245i.html",
+		"oF": 0
+		},
+	"\/green-cards\/245k.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/245k.html",
+		"oF": 0
+		},
+	"\/green-cards\/adjustment-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/adjustment-of-status.html",
+		"oF": 0
+		},
+	"\/green-cards\/adoption.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/adoption.html",
+		"oF": 0
+		},
+	"\/green-cards\/age-freeze.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/age-freeze.html",
+		"oF": 0
+		},
+	"\/green-cards\/asylum-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/asylum-guide.html",
+		"oF": 0
+		},
+	"\/green-cards\/brother-sister.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/brother-sister.html",
+		"oF": 0
+		},
+	"\/green-cards\/college-graduates.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/college-graduates.html",
+		"oF": 0
+		},
+	"\/green-cards\/consular-processing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/consular-processing.html",
+		"oF": 0
+		},
+	"\/green-cards\/cspa-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/cspa-guide.html",
+		"oF": 0
+		},
+	"\/green-cards\/duration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/duration.html",
+		"oF": 0
+		},
+	"\/green-cards\/eb-immigration.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/eb-immigration.html",
+		"oF": 0
+		},
+	"\/green-cards\/eb5-investments.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/eb5-investments.html",
+		"oF": 0
+		},
+	"\/green-cards\/employment-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/employment-based.html",
+		"oF": 0
+		},
+	"\/green-cards\/exceptional-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/exceptional-ability.html",
+		"oF": 0
+		},
+	"\/green-cards\/executives-managers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/executives-managers.html",
+		"oF": 0
+		},
+	"\/green-cards\/extraordinary-ability.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/extraordinary-ability.html",
+		"oF": 0
+		},
+	"\/green-cards\/family-based.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/family-based.html",
+		"oF": 0
+		},
+	"\/green-cards\/family-members.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/family-members.html",
+		"oF": 0
+		},
+	"\/green-cards\/formula.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/formula.html",
+		"oF": 0
+		},
+	"\/green-cards\/h1b-cap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/h1b-cap.html",
+		"oF": 0
+		},
+	"\/green-cards\/h1b-procedure.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/h1b-procedure.html",
+		"oF": 0
+		},
+	"\/green-cards\/immediate-relatives.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/immediate-relatives.html",
+		"oF": 0
+		},
+	"\/green-cards\/lgbt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/lgbt.html",
+		"oF": 0
+		},
+	"\/green-cards\/marriage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/marriage.html",
+		"oF": 0
+		},
+	"\/green-cards\/married-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/married-child.html",
+		"oF": 0
+		},
+	"\/green-cards\/nationality.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/nationality.html",
+		"oF": 0
+		},
+	"\/green-cards\/one-child-policy-PRC.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/one-child-policy-PRC.html",
+		"oF": 0
+		},
+	"\/green-cards\/one-year-filing-rule.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/one-year-filing-rule.html",
+		"oF": 0
+		},
+	"\/green-cards\/opt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/opt.html",
+		"oF": 0
+		},
+	"\/green-cards\/parents.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/parents.html",
+		"oF": 0
+		},
+	"\/green-cards\/particular-social-group.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/particular-social-group.html",
+		"oF": 0
+		},
+	"\/green-cards\/PERM.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/PERM.html",
+		"oF": 0
+		},
+	"\/green-cards\/political-opinion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/political-opinion.html",
+		"oF": 0
+		},
+	"\/green-cards\/professors-and-researchers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/professors-and-researchers.html",
+		"oF": 0
+		},
+	"\/green-cards\/race.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/race.html",
+		"oF": 0
+		},
+	"\/green-cards\/religion.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/religion.html",
+		"oF": 0
+		},
+	"\/green-cards\/religious-workers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/religious-workers.html",
+		"oF": 0
+		},
+	"\/green-cards\/sought-to-acquire.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/sought-to-acquire.html",
+		"oF": 0
+		},
+	"\/green-cards\/spouse-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/spouse-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/green-cards\/unlawful-presence-bars-and-waivers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/unlawful-presence-bars-and-waivers.html",
+		"oF": 0
+		},
+	"\/green-cards\/unmarried-child-of-lpr.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/unmarried-child-of-lpr.html",
+		"oF": 0
+		},
+	"\/green-cards\/unmarried-child.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/unmarried-child.html",
+		"oF": 0
+		},
+	"\/green-cards\/work-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/green-cards\/work-visas.html",
+		"oF": 0
+		},
+	"\/img\/arrow-right-wh.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/arrow-right-wh.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/avvo-badges-2016.png": {
+		"ft": 32768,
+		"iS": 49699,
+		"oA": 0,
+		"oAP": "\/img\/avvo-badges-2016.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 80
+		},
+	"\/img\/avvo-badges.jpg": {
+		"ft": 16384,
+		"iS": 80685,
+		"oA": 0,
+		"oAP": "\/img\/avvo-badges.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
+		},
+	"\/img\/awards-01.jpg": {
+		"ft": 16384,
+		"iS": 272909,
+		"oA": 0,
+		"oAP": "\/img\/awards-01.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
+		},
+	"\/img\/awards-02.jpg": {
+		"ft": 16384,
+		"iS": 183590,
+		"oA": 0,
+		"oAP": "\/img\/awards-02.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
+		},
+	"\/img\/awards-03.jpg": {
+		"ft": 16384,
+		"iS": 240702,
+		"oA": 0,
+		"oAP": "\/img\/awards-03.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
+		},
+	"\/img\/awards-04.jpg": {
+		"ft": 16384,
+		"iS": 202598,
+		"oA": 0,
+		"oAP": "\/img\/awards-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-05.jpg": {
+		"ft": 16384,
+		"iS": 141853,
+		"oA": 0,
+		"oAP": "\/img\/awards-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-06.jpg": {
+		"ft": 16384,
+		"iS": 142476,
+		"oA": 0,
+		"oAP": "\/img\/awards-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-07.jpg": {
+		"ft": 16384,
+		"iS": 182487,
+		"oA": 0,
+		"oAP": "\/img\/awards-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-08.jpg": {
+		"ft": 16384,
+		"iS": 278700,
+		"oA": 0,
+		"oAP": "\/img\/awards-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-09.jpg": {
+		"ft": 16384,
+		"iS": 314440,
+		"oA": 0,
+		"oAP": "\/img\/awards-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-10.jpg": {
+		"ft": 16384,
+		"iS": 116729,
+		"oA": 0,
+		"oAP": "\/img\/awards-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-11.jpg": {
+		"ft": 16384,
+		"iS": 190907,
+		"oA": 0,
+		"oAP": "\/img\/awards-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/awards-12.jpg": {
+		"ft": 16384,
+		"iS": 331800,
+		"oA": 0,
+		"oAP": "\/img\/awards-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/citizenship.jpg": {
+		"ft": 16384,
+		"iS": 618005,
+		"oA": 0,
+		"oAP": "\/img\/citizenship.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/contact-intro-ru.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/contact-intro-ru.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/contact-intro.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/contact-intro.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/contact-intro@2x.png": {
+		"ft": 32768,
+		"iS": 62582,
+		"oA": 0,
+		"oAP": "\/img\/contact-intro@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/dhzamgarovalaw-hero-photo.jpg": {
+		"ft": 16384,
+		"iS": 566838,
+		"oA": 0,
+		"oAP": "\/img\/dhzamgarovalaw-hero-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/dzh-map-miami.jpg": {
+		"ft": 16384,
+		"iS": 16463,
+		"oA": 0,
+		"oAP": "\/img\/dzh-map-miami.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/dzh-map-nyc.jpg": {
+		"ft": 16384,
+		"iS": 19061,
+		"oA": 0,
+		"oAP": "\/img\/dzh-map-nyc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/dzh-miami.jpg": {
+		"ft": 16384,
+		"iS": 32195,
+		"oA": 0,
+		"oAP": "\/img\/dzh-miami.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/dzh-new-york.jpg": {
+		"ft": 16384,
+		"iS": 31909,
+		"oA": 0,
+		"oAP": "\/img\/dzh-new-york.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/dzhamgarova-logo-gld-ru.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/dzhamgarova-logo-gld-ru.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/dzhamgarova-logo-gld.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/dzhamgarova-logo-gld.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/dzhamgarova-logo-ru.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/dzhamgarova-logo-ru.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/dzhamgarova-logo-v2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/dzhamgarova-logo-v2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/dzhamgarova-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/dzhamgarova-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/expand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/expand.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/external-site.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/external-site.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/external-site@2x-100.jpg": {
+		"ft": 16384,
+		"iS": 76722,
+		"oA": 0,
+		"oAP": "\/img\/external-site@2x-100.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/external-site@4x.png": {
+		"ft": 32768,
+		"iS": 4774,
+		"oA": 0,
+		"oAP": "\/img\/external-site@4x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/lang-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/lang-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/lang-icon_1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/lang-icon_1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/law-practice-2.jpg": {
+		"ft": 16384,
+		"iS": 214372,
+		"oA": 0,
+		"oAP": "\/img\/law-practice-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/law-practice.jpg": {
+		"ft": 16384,
+		"iS": 226843,
+		"oA": 0,
+		"oAP": "\/img\/law-practice.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/logo-circl-inv.jpg": {
+		"ft": 16384,
+		"iS": 85931,
+		"oA": 0,
+		"oAP": "\/img\/logo-circl-inv.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/logo-circl-inv.png": {
+		"ft": 32768,
+		"iS": 6179,
+		"oA": 0,
+		"oAP": "\/img\/logo-circl-inv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo-circl-inv.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-circl-inv.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-circl.jpg": {
+		"ft": 16384,
+		"iS": 105972,
+		"oA": 0,
+		"oAP": "\/img\/logo-circl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/logo-circl.png": {
+		"ft": 32768,
+		"iS": 6216,
+		"oA": 0,
+		"oAP": "\/img\/logo-circl.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/logo-circl.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-circl.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/reading-visa.gif": {
+		"ft": 4194304,
+		"iS": 95310,
+		"oA": 0,
+		"oAP": "\/img\/reading-visa.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/scroll-down-icon-bk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/scroll-down-icon-bk.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/scroll-down-icon-wh.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/scroll-down-icon-wh.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/testimonial.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/testimonial.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/visa.jpg": {
+		"ft": 16384,
+		"iS": 169704,
+		"oA": 0,
+		"oAP": "\/img\/visa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min.js",
+		"oF": 0,
+		"sC": 2,
+		"tS": 0
+		},
+	"\/js\/materialize.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/materialize-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/materialize.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/materialize.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/legal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/legal.html",
+		"oF": 0
+		},
+	"\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 15745,
+		"oA": 0,
+		"oAP": "\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 50215,
+		"oA": 0,
+		"oAP": "\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 80351,
+		"oA": 0,
+		"oAP": "\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 184327,
+		"oA": 0,
+		"oAP": "\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 7422,
+		"oA": 0,
+		"oAP": "\/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/sitemap.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sitemap.html",
+		"oF": 0
+		},
+	"\/visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas.html",
+		"oF": 0
+		},
+	"\/visas\/athletes-entertainers-p-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/athletes-entertainers-p-visas.html",
+		"oF": 0
+		},
+	"\/visas\/change-of-status.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/change-of-status.html",
+		"oF": 0
+		},
+	"\/visas\/crime-victims-u-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/crime-victims-u-visas.html",
+		"oF": 0
+		},
+	"\/visas\/exchange-visitors-j-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/exchange-visitors-j-visas.html",
+		"oF": 0
+		},
+	"\/visas\/extension-of-stay.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/extension-of-stay.html",
+		"oF": 0
+		},
+	"\/visas\/extraordinary-ability-o-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/extraordinary-ability-o-visas.html",
+		"oF": 0
+		},
+	"\/visas\/fiancees-of-us-citizens-k1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/fiancees-of-us-citizens-k1-visas.html",
+		"oF": 0
+		},
+	"\/visas\/intracompany-transferee-l1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/intracompany-transferee-l1-visas.html",
+		"oF": 0
+		},
+	"\/visas\/professionals-h1b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/professionals-h1b-visas.html",
+		"oF": 0
+		},
+	"\/visas\/religios-workers-r-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/religios-workers-r-visas.html",
+		"oF": 0
+		},
+	"\/visas\/spouses-of-us-citizens-k3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/spouses-of-us-citizens-k3-visas.html",
+		"oF": 0
+		},
+	"\/visas\/students-f-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/students-f-visas.html",
+		"oF": 0
+		},
+	"\/visas\/temporary-workers-h2b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/temporary-workers-h2b-visas.html",
+		"oF": 0
+		},
+	"\/visas\/trainees-h3-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/trainees-h3-visas.html",
+		"oF": 0
+		},
+	"\/visas\/treaty-investors-e2-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/treaty-investors-e2-visas.html",
+		"oF": 0
+		},
+	"\/visas\/treaty-traders-e1-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/treaty-traders-e1-visas.html",
+		"oF": 0
+		},
+	"\/visas\/victims-of-human-trafficking-t-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/victims-of-human-trafficking-t-visas.html",
+		"oF": 0
+		},
+	"\/visas\/visitors-b-visas.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/visas\/visitors-b-visas.html",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 536312217,
+	"displayValue": "dzhamgarovalaw",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-greg"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-between-class-members": {
+			"active": 0,
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
