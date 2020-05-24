@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 819 296"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:0.5px;}.cls-3,.cls-4{font-size:34.31px;font-family:RobotoSlab-Regular, Roboto Slab;}.cls-3,.cls-4,.cls-6{fill:#1c2c58;}.cls-4{letter-spacing:-0.05em;}.cls-5{letter-spacing:0em;}.cls-6{font-size:19.91px;font-family:OpenSans-Bold, Open Sans;font-weight:700;}.cls-7{font-size:20.05px;fill:#636464;font-family:OpenSans, Open Sans;}</style></defs><title>contact-intro-ru</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect class="cls-1" width="819" height="296"/><line class="cls-2" x1="84.74" y1="85.36" x2="680.82" y2="85.36"/><line class="cls-2" x1="84.74" y1="181.22" x2="680.82" y2="181.22"/><text class="cls-3" transform="translate(84.61 67.95)">Адрес</text><text class="cls-4" transform="translate(385.78 67.95)">Т<tspan class="cls-5" x="19.85" y="0">ел.</tspan></text><text class="cls-3" transform="translate(579.72 68.36)">Часы</text><text class="cls-6" transform="translate(84.61 109.95)">Нью-Йорк</text><text class="cls-6" transform="translate(84.61 205.33)">Майами</text><text class="cls-7" transform="translate(84.61 139.83)">603 Brighton Beach Ave.<tspan x="0" y="24.06">Brooklyn, NY 11235</tspan></text><text class="cls-7" transform="translate(385.78 138.8)">(718) 730-9497</text><text class="cls-7" transform="translate(84.61 231.21)">323 Sunny Isles Blvd, 7th Fl.<tspan x="0" y="24.06">Sunny Isles Beach, FL 33160</tspan></text><text class="cls-7" transform="translate(385.78 230.97)">(786) 909-8498</text><text class="cls-7" transform="translate(579.72 140.13)">9:00-19:00</text><text class="cls-7" transform="translate(579.72 231.21)">9:00-19:00</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 819 296">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-2{fill:none;stroke:#231f20;stroke-miterlimit:10;stroke-width:0.5px;}.cls-3,.cls-4{font-size:34.31px;font-family:RobotoSlab-Regular, Roboto Slab;}.cls-3,.cls-4,.cls-6{fill:#1c2c58;}.cls-4{letter-spacing:-0.05em;}.cls-5{letter-spacing:0em;}.cls-6{font-size:19.91px;font-family:OpenSans-Bold, Open Sans;font-weight:700;}.cls-7{font-size:20.05px;fill:#636464;font-family:OpenSans, Open Sans;}</style>
+  </defs>
+  <title>contact-intro-ru</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect class="cls-1" width="819" height="296"/>
+      <line class="cls-2" x1="84.74" y1="85.36" x2="680.82" y2="85.36"/>
+      <line class="cls-2" x1="84.74" y1="181.22" x2="680.82" y2="181.22"/>
+      <text class="cls-3" transform="translate(84.61 67.95)">Адрес</text>
+      <text class="cls-4" transform="translate(385.78 67.95)">Тел.</text>
+      <text class="cls-3" transform="translate(579.72 68.36)">Часы</text>
+      <text class="cls-6" transform="translate(84.61 109.95)">Нью-Йорк</text>
+      <text class="cls-6" transform="translate(84.61 205.33)">Майами</text>
+      <text class="cls-7" transform="translate(84.61 139.83)">603 Brighton Beach Ave.<tspan x="0" y="24.06">Brooklyn, NY 11235</tspan>
+      </text>
+      <text class="cls-7" transform="translate(385.78 138.8)">(718) 730-9497</text>
+      <text class="cls-7" transform="translate(84.61 231.21)">323 Sunny Isles Blvd, 7th Fl.<tspan x="0" y="24.06">Sunny Isles Beach, FL 33160</tspan>
+      </text>
+      <text class="cls-7" transform="translate(385.78 230.97)">(786) 909-8498</text>
+      <text class="cls-7" transform="translate(579.72 140.13)">9:00-19:00</text>
+      <text class="cls-7" transform="translate(579.72 231.21)">9:00-19:00</text>
+    </g>
+  </g>
+</svg>
