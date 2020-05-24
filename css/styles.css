@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
     font-weight: 300;
 }
@@ -27,7 +27,7 @@ h3 {
 }
 
 .impressum h3 {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     font-weight: 300;
 }
@@ -790,8 +790,6 @@ p {
         background: none;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: Oswald;
-        font-weight: 400;
         color: #ffffff;
         font-size: 1em;
         text-align: center;
@@ -808,8 +806,6 @@ p {
         background: none;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: Oswald;
-        font-weight: 400;
         color: #ffffff;
         font-size: 1em;
         text-align: center;
@@ -826,8 +822,6 @@ p {
         background: #fff;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: Oswald;
-        font-weight: 400;
         color: #000;
         font-size: 1em;
         text-align: center;
